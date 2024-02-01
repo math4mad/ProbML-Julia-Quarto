@@ -11,14 +11,14 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: source.qmd
+      - href: notes/source.qmd
         text: Source
       - href: notes/learn/index.qmd
         text: "Learn"
       - text: "More"
         menu:
-          - about.qmd
-          - reference.qmd 
+          - notes/about.qmd
+          - notes/reference.qmd 
   sidebar:
      - id: learn
        collapse-level: 1
