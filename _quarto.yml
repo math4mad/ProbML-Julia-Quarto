@@ -1,0 +1,56 @@
+project:
+  type: website
+  title: "Julia Probabilistic Machine Learning"
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+website:
+  title: "PML-Julia"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: source.qmd
+        text: Source
+      - href: notes/learn/index.qmd
+        text: "Learn"
+      - text: "More"
+        menu:
+          - about.qmd
+          - reference.qmd 
+  sidebar:
+     - id: learn
+       collapse-level: 1
+       contents:
+        - text: "Learn"
+          href: notes/learn/index.qmd     
+
+format:
+  html:
+    quarto-required: ">= 1.3.353"
+    toc: true
+    linestretch: 1.6
+    grid:
+      body-width: 840px
+    mermaid:
+      theme: forest
+    code-block-bg: true
+    code-block-border-left: "#0080ff"
+     
+theme:
+  -  cosmo
+  -  src/css/styles.scss
+  -  src/css/theme.css
+  -  src/css/feaures.css
+  #- components.min.scss
+execute:
+  freeze: auto
+  keep-md: false
+
+
+code-block-bg: true
+highlight-style: Ayu 
+
+
+

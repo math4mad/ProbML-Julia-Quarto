@@ -1,0 +1,33 @@
+[
+  {
+    "objectID": "source.html",
+    "href": "source.html",
+    "title": "Source",
+    "section": "",
+    "text": "“Source”"
+  },
+  {
+    "objectID": "notes/learn/index.html",
+    "href": "notes/learn/index.html",
+    "title": "Learning",
+    "section": "",
+    "text": "“Learning HomePage”",
+    "crumbs": [
+      "Learn"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "reference.html",
+    "href": "reference.html",
+    "title": "Reference",
+    "section": "",
+    "text": "“Reference”"
+  }
+]
